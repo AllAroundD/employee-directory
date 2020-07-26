@@ -1,0 +1,102 @@
+[
+    {
+        "id": "111-111-111",
+        "firstName": "Doug",
+        "lastName": "Moore",
+        "title": "Application Developer",
+        "phone": "416-555-4396",
+        "email": "doug.moore@google.com",
+        "location": "33 Yonge Street, 4th Floor",
+        "dept": "IT"
+    },
+    {
+        "id": "222-222-222",
+        "firstName": "Jerome",
+        "lastName": "Wilson",
+        "title": "Sr. Manager",
+        "phone": "416-555-4300",
+        "email": "jerome.wilson@google.com",
+        "location": "33 Yonge Street, 4th Floor",
+        "dept": "IT"
+    },
+    {
+        "id": "333-333-333",
+        "firstName": "Jenny",
+        "lastName": "Jones",
+        "title": "HR Consultant",
+        "phone": "416-555-4301",
+        "email": "jenny.jones@google.com",
+        "location": "55 Yonge Street, 2nd Floor",
+        "dept": "Human Resources"
+    },
+    {
+        "id": "444-444-444",
+        "firstName": "Barry",
+        "lastName": "Bonds",
+        "title": "Director",
+        "phone": "416-555-4302",
+        "email": "barry.bonds@google.com",
+        "location": "199 Bay Street, 13th Floor",
+        "dept": "Marketing"
+    },
+    {
+        "id": "555-555-555",
+        "firstName": "Wendy",
+        "lastName": "Bailey",
+        "title": "Application Support",
+        "phone": "416-555-4303",
+        "email": "wendy.bailey@google.com",
+        "location": "750 Lawrence Ave, 2nd Floor",
+        "dept": "IT"
+    },
+    {
+        "id": "666-666-666",
+        "firstName": "Harry",
+        "lastName": "MacLeon",
+        "title": "Financial Advisor",
+        "phone": "416-555-4304",
+        "email": "harry.macleon@google.com",
+        "location": "33 Yonge Street, 3rd Floor",
+        "dept": "Finance"
+    },
+    {
+        "id": "777-777-777",
+        "firstName": "Jim",
+        "lastName": "Stewart",
+        "title": "Senior Architect",
+        "phone": "416-555-4305",
+        "email": "jim.stewart@google.com",
+        "location": "33 Yonge Street, 7th Floor",
+        "dept": "Architecture"
+    },
+    {
+        "id": "888-888-888",
+        "firstName": "Fred",
+        "lastName": "Norton",
+        "title": "Full Stack Developer",
+        "phone": "416-555-4306",
+        "email": "fred.norton@google.com",
+        "location": "33 Yonge Street, 4th Floor",
+        "dept": "IT"
+    },
+    {
+        "id": "999-999-999",
+        "firstName": "Jackson",
+        "lastName": "Tucker",
+        "title": "Senior Application Developer",
+        "phone": "416-555-4397",
+        "email": "jackson.tucker@google.com",
+        "location": "33 Yonge Street, 4th Floor",
+        "dept": "IT"
+    },
+    {
+        "id": "101-010-101",
+        "firstName": "Audrey",
+        "lastName": "Hemingway",
+        "title": "Senior Solution Consultant",
+        "phone": "416-555-4398",
+        "email": "audrey.hemingway@google.com",
+        "location": "33 Yonge Street, 7th Floor",
+        "dept": "Architecture"
+    }
+]
