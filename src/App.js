@@ -1,38 +1,39 @@
-import React, { useState } from 'react';
-
-import TableFilter from './components/TableFilter'
-import TableOrder from './components/TableOrder'
-import TableList from './components/TableList'
-
+import React, { useState } from 'react'
+import Header from './components/Header'
+import Title from './components/Title'
+import TableFilter from './components/TableFilter/'
+import TableOrder from './components/TableOrder/'
+import TableList from './components/TableList/'
 import employees from './utils/employees.json'
-
+import Footer from './components/Footer'
+import './style.css'
 function App() {
-  const [tableManager, setList] = useState({ list: employees, filter: '', order: 'firstName' })
-  console.log(`[App] tableManager order:`, tableManager.order)
+  const [employeeTable, setList] = useState({ list: employees, filter: '', order: 'id' })
 
   function updateFilter(filter) {
-    // console.log( `employees: `, employees )
-    const filterList = employees.filter(employee => employee.name.toLowerCase().indexOf(filter.toLowerCase()) > -1)
-    setList({ ...tableManager, filter, list: filterList })
+    const filterList = employees.filter(employee => employee.firstName.toLowerCase().indexOf(filter.toLowerCase()) > -1)
+    setList({ ...employeeTable, filter, list: filterList })
   }
 
-  function updateOrder(order) {
-    const newSortedList = tableManager.list.sort(function (a, b) {
+  function updateSortOrder(order) {
+    const newSortedList = employeeTable.list.sort(function (a, b) {
       return a[order] > b[order] ? 1 : -1;
     })
-    setList({ ...tableManager, order, list: newSortedList })
+    setList({ ...employeeTable, order, list: newSortedList })
   }
 
   return (
     <div class="row d-flex justify-content-center container">
 
-      <h1>Employee List</h1>
+      <Header />
+      <Title />
       <form>
-        <TableFilter filter={tableManager.filter} updateFilter={updateFilter} />
-        <TableOrder order={tableManager.order} updateOrder={updateOrder} />
+        <TableFilter filter={employeeTable.filter} updateFilter={updateFilter} />
+        <TableOrder order={employeeTable.order} updateSortOrder={updateSortOrder} />
       </form>
 
-      <TableList employees={tableManager.list} />
+      <TableList employees={employeeTable.list} />
+      <Footer />
     </div>
   )
 }

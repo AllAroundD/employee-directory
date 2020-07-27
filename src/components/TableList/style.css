@@ -1,0 +1,28 @@
+.employeeTable {
+    width: 100%;
+}
+
+#id {
+    width: 15%
+}
+#firstname {
+    width: 5%
+} 
+#lastname {
+    width: 5%
+}
+#title {
+    width: 5%
+}
+#phone {
+    width: 15%
+}
+#email {
+    width: 5%
+} 
+#location {
+    width: 10%
+} 
+#dept {
+    width: 10%
+} 

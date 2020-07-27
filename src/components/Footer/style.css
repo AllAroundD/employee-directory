@@ -1,0 +1,13 @@
+footer {
+    position: fixed;
+    bottom: 50px;
+    left: 0px;
+    height: 35px;
+    width: 100%;
+    opacity: 0.4;
+}
+
+/* footer.footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  } */
