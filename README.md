@@ -12,7 +12,7 @@
   - [Questions](#Questions)
 
 ## Installation
-  For just using the application, there is no installation required. The application url is .
+  For just using the application, there is no installation required. The application url is http://employee-directory-dm.herokuapp.com/.
   For the local setup of this application, there are a few npm modules that are required (react, react-scripts, react-dom, etc.). Once the repository is cloned, typing 'npm install' at the command prompt will install all of the required modules.
   Once the user clones and runs the program, the application will open in a browser window.
   Here is an example of the command to run in development mode:
