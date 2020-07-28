@@ -5,8 +5,8 @@ function TableFilter(props) {
         // Getting the value of the input which triggered the change
         const { value } = event.target;
 
-        // calling the parent updateFilter so the 'filter' property will be changed at the App level, adn then
-        // propagated down
+        // calling the parent updateFilter so the 'filter' property will be changed at the App level, 
+        // and then propagated down
         props.updateFilter(value)
     }
 
